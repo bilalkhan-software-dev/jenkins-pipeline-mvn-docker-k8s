@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: practice
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test-db
+    username: postgres
+    password: khan
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        generate_statistics: true
